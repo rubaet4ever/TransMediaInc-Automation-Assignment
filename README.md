@@ -1,15 +1,15 @@
 <h1 align="left">Transmedia Inc</h1>
 
-**Using Selenium WebDriver framework/tool for UI test**
-**Using Postingt framework/tool API test**
+**1. Using Selenium WebDriver framework/tool for UI test**
+**2. Using Postingt framework/tool API test**
 
 
 <h1 align="left">Pre-requisite</h1>
 
 Install the app, simply clone this project and
 
-npm install
-npm start
+1. npm install
+2. npm start
 
 <h1 align="left">Task</h1>
 
