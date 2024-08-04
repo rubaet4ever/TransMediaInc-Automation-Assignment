@@ -10,9 +10,8 @@ Install the app, clone this project and
 
 1. npm install
 2. npm start
-3. 
-Need to install JDK 17
-Need internet connectivity
+3. Need to install JDK 17
+4. Need internet connectivity
 
 <h1 align="left">Task</h1>
 
