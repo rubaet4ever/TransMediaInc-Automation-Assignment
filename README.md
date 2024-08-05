@@ -6,7 +6,7 @@
 
 <h1 align="left">PreRequisite</h1>
 
-Install the app, clone this project and
+ Install the App, Clone This Project, And Run The Project With the Editor System
 
 1. npm install
 2. npm start
@@ -17,7 +17,7 @@ Install the app, clone this project and
 
 **UI Automation**
 
-1. Input a Board name, press enter. Verify Board created successfully.
+1. Input a Board name, and press enter. Verify Board created successfully.
 2. Add two lists and verify two lists created successfully.
 3. Delete a list.
    
