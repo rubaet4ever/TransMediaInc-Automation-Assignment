@@ -28,16 +28,16 @@
 
 <h1 align="left">Technology</h1>
 
-Framework: Selenium
-IDE: Eclipse
-Build tool: Maven
-Language: Java, JavaScript, HTML & CSS
-Test_Runner: TestNG
-Report - ExtentReports
+- Framework: Selenium
+- IDE: Eclipse
+- Build tool: Maven
+- Language: Java, JavaScript, HTML & CSS
+- Test_Runner: TestNG
+- Report - ExtentReports
 
 <h1 align="left">Run the Automation Script:</h1>
 
-Open Terminal from Eclipse
-Type this command: (maven clean test)
-Selenium will open the browser and start automation.
-To View ExtentReports
+- Open Terminal from Eclipse
+- Type this command: (maven clean test)
+- Selenium will open the browser and start automation.
+- To View ExtentReports
