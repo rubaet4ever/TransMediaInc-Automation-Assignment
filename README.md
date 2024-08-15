@@ -1,7 +1,7 @@
 <h1 align="left">Transmedia Inc</h1>
 
 1. Using Selenium WebDriver framework/tool for UI test
-2. Using Postingt framework/tool API test
+2. Using Postman framework/tool API test
 
 
 <h1 align="left">PreRequisite</h1>
