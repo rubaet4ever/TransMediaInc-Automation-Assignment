@@ -9,14 +9,22 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 import com.transmediainc.ui.UIAutomation;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.chrome.ChromeOptions;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.transmediainc.report.ExtentReportsWithTestNG;
 
 public class SeleniumTestManager {
 
 	static	WebDriver driver = null;
-
+        
+	    @BeforeTest
 		public static void main (String[] args) throws InterruptedException {
 			try {
 
@@ -36,7 +44,8 @@ public class SeleniumTestManager {
 			}
 
 		}
-		
+	 
+		@Test
 		private static WebDriver getChromeDriver(String serverUrl)throws InterruptedException {
 
 			final String DRIVER_NAME = "webdriver.chrome.driver";
@@ -51,7 +60,8 @@ public class SeleniumTestManager {
 			System.out.println("Chrome driver found");
 			return driver;
 		}
-
+        
+		@AfterTest
 		public void tearDownTest() {
 			//close browser
 			driver.close();
