@@ -31,39 +31,17 @@ public class ExtentReportsWithTestNG {
 				//String text = menu_text.getText();
 				//assertThat(text).as("Verify text of Menu link").isEqualToIgnoringCase("Desktops");
 		
-		public static void createExtentReportsWithTestNG(WebDriver driver) throws InterruptedException {
+		public void createExtentReportsWithTestNG(WebDriver driver) throws InterruptedException {
 			// TODO Auto-generated method stub
 			
-			driver.findElement(By.id("email")).sendKeys("rubaet@bs.com");
-			Thread.sleep(2000);
-			driver.findElement(By.id("password")).sendKeys("rubaet1@R");
-			Thread.sleep(2000);
-			driver.manage().window().maximize();
-			Thread.sleep(2000);
-			
-			//driver.findElement(By.id("rc-anchor-container")).click();
-			//Thread.sleep(2000);
-		    driver.findElement(By.cssSelector(".bigger-110")).click();
-		    Thread.sleep(2000);
-		    
-		    driver.findElement(By.cssSelector(".user-info > span:nth-child(3)")).click();
-			Thread.sleep(2000);
-		
-			driver.findElement(By.xpath("//div[@id='navbar-container']/div[2]/ul/li[3]/ul/li[3]/a/span")).click();
-			Thread.sleep(2000);
+			ExtentTest Test = extent.createTest("Launch Browser and Website").assignAuthor("John").assignCategory("UI Test").assignDevice("Desktop_chrome");
 
-		}
-		
-		@Test
-		public void UIAutomation(){
+			ExtentTest Test1 = extent.createTest("Launch Browser and Website").assignAuthor("Doe").assignCategory("UI Test").assignDevice("Desktop_chrome");
 
-		ExtentTest Test = extent.createTest("Launch Browser and Website").assignAuthor("John").assignCategory("UI Test").assignDevice("Desktop_chrome");
+			Test1.log(Status.PASS,"Browser lunched");
+			Test1.pass("Browser launched successfully");
+			test.info("Displaying Page");
 
-		ExtentTest Test1 = extent.createTest("Launch Browser and Website").assignAuthor("Doe").assignCategory("UI Test").assignDevice("Desktop_chrome");
-
-		Test1.log(Status.PASS,"Browser lunched");
-		Test1.pass("Browser launched successfully");
-		test.info("Displaying Page");
 		}
 		
 
