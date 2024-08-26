@@ -4,7 +4,7 @@
 2. Using Postman framework/tool API test
 
 
-<h1 align="left">PreRequisite</h1>
+<h2 align="left">PreRequisite</h2>
 
  Install the App, Clone This Project, And Run The Project With the Editor System
 
@@ -13,7 +13,7 @@
 3. Need to install JDK 17
 4. Need internet connectivity
 
-<h1 align="left">Task</h1>
+<h2 align="left">Task</h2>
 
 **UI Automation**
 
@@ -26,7 +26,7 @@
 1. Add a new list
 2. Delete the newly created list
 
-<h1 align="left">Technology</h1>
+<h2 align="left">Technology</h2>
 
 - Framework: Selenium WebDriver
 - IDE: Eclipse
@@ -35,7 +35,7 @@
 - Test_Runner: TestNG
 - Report - ExtentReports
 
-<h1 align="left">Run the Automation Script:</h1>
+<h2 align="left">Run the Automation Script:</h2>
 
 - Open Terminal from Eclipse
 - Type this command: (maven clean test)
